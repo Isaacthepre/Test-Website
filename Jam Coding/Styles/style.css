@@ -3,21 +3,23 @@
     Margin:0;
 }
 body {
-    /*max-width:100%;*/
     margin:0 auto;
-    padding-top:25px;
+    padding-top:0;
     background-color:lightskyblue
 }
 
+/*Home Page*/
 .MainHeading {
     font-family: helvetica;
     color:red;
     padding: 20px;
+    padding-bottom: 10px;
     font-size: 100px;
     text-align: center;
 }
 .Courts {
     Width: 500px;
+    padding-bottom: 10px;
 }
 
 .Discription {
@@ -26,10 +28,27 @@ body {
     text-align: center;
 }
 
+/*Explination Page*/
+.ExplanationTitle {
+    font-family: helvetica;
+    color:forestgreen;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ForehandBackhand {
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 14;
+}
+
+/*Shots Page*/
 .GroundStrokes {
     font-family: helvetica;
     color:blue;
     padding: 10px;
+    padding-top: 20px;
     font-size: 25px;
     text-align: center;
 }
@@ -38,8 +57,55 @@ body {
     Padding: 0px 20px;
     text-align: center;
     font-size: 14;
+    padding-bottom: 20px;
 }
 
+.VolleysOverhead {
+    font-family: helvetica;
+    color:blue;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.VolleysOverheadDisc {
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 14;
+    padding-bottom: 20px;
+}
+
+.ApproachShot {
+    font-family: helvetica;
+    color:blue;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ApproachDisc {
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 14;
+    padding-bottom: 20px;
+}
+
+.Serve {
+    font-family: helvetica;
+    color:blue;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ServeDisc {
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 14;
+    padding-bottom: 20px;
+}
+
+/*Nav Bar*/
 nav li{
     list-style: none;
     margin:0 auto;
@@ -47,7 +113,10 @@ nav li{
 
 nav ul {
 display:flex;
-justify-content: space-between;
+justify-content: space-around;
+background-color: darkorange;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 a {
@@ -68,6 +137,11 @@ li:not(:hover) {
     transition-duration: 0.3s;
     transform:scale(1);
 }
+/*Serve Page*/
+video {
+    padding: 15px;
+}
+
 
 @media(max-width:1000px){
     body{
